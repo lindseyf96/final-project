@@ -20,11 +20,11 @@ I have all the data I need, I just need to get shape files and make the data usa
 
 <b>Sketch of what the final project might look like, noting any interactivity:</b>
 
-<li>
-<ul>Header image + title text</ul>
-<ul>then explainer text + linear regression chart</ul>
-<ul>then interactive map showing cities, then zooming into nyc</ul>
-<ul>then more explainer text + hate group symbols</ul>
-<ul>then interactive game (or link to a page with the interactive game)</ul>
-<ul>then rest of explainer text and other charts</ul>
-</li>
+<ul>
+<li>Header image + title text</li>
+<li>then explainer text + linear regression chart</li>
+<li>then interactive map showing cities, then zooming into nyc</li>
+<li>then more explainer text + hate group symbols</li>
+<li>then interactive game (or link to a page with the interactive game)</li>
+<li>then rest of explainer text and other charts</li>
+</ul>
