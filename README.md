@@ -27,4 +27,4 @@ I have all the data I need, I just need to get shape files and make the data usa
 <ul>then more explainer text + hate group symbols</ul>
 <ul>then interactive game (or link to a page with the interactive game)</ul>
 <ul>then rest of explainer text and other charts</ul>
-<li>
+</li>
