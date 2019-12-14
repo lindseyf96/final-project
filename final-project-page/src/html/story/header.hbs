@@ -1,0 +1,16 @@
+<div id='thing'><div class="header-img">
+  {{!-- <img class='image' src="/images/hate-protest.gif"> --}}
+  <div class="header1">
+    <p class="kicker">{{ kicker }}</p>
+    <h1 class="headline">{{ headline }}</h1><br>
+    {{!-- <h2 class="subhead">{{ subhead }}</h2> --}}
+    <p class="byline">
+        {{#if author.url }}
+            <a href="{{ author.url }}">{{ author.name }}</a>
+        {{else}}
+            {{ author.name }}
+        {{/if}}
+    </p>
+    <p class="date">Published {{ published_date }}</p>
+</div>
+</div></div>

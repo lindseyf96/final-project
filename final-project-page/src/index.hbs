@@ -1,0 +1,59 @@
+---
+headline: "Hate Is Rising Across The U.S."
+published_date: "DECEMBER 2019"
+siteName: "U.S. Hate"
+author:
+    name: "By Lindsey Feingold"
+analytics": ""
+---
+
+<div class='black-color'>
+{{!< default}}
+
+{{> story/chart2 }}
+
+{{> story/basic }}
+
+{{> story/chart }}
+<div class="story-body">
+<p>Galloway said the increasing number of hate groups and hate crimes is partially due to the Internet, which allows groups to spread their message more easily. But it is also because of indifference, he added.  </p>
+  <p>“It’s very problematic how these hate groups and rise of hate incidents are not being looked at in a serious enough way,” he said. “When we see what’s going on, when we see pictures like police officers giving the Hitler salute, where are we at systematically? … It’s almost reinvigorating these hate movements, by them seeing it’s rotten at the core -- it substantiates their extremist causes.”  </p>
+</div>
+</div>
+
+
+{{> story/illustrator_demo }}
+
+<div id="mapbox-map-inject"></div>
+
+<script>
+  window.addEventListener('load', function() {
+    let iframe = document.createElement('iframe')
+    iframe.style = "width: 100%; height: 100vh;"
+    iframe.src = "mapbox.html"
+    document.querySelector("#mapbox-map-inject").appendChild(iframe)
+  })
+</script>
+
+<div class="story-body">
+  {{!-- <h2>mapbox stuff here</h2>
+    {{> story/mapbox }} --}}
+  <p>Seattle is actively trying to solve the segregation issue, which in turn could lower the number of hate crimes through integration.</p>
+  <p>A <a href="https://opportunityinsights.org/wp-content/uploads/2019/08/cmto_paper.pdf">study</a> out of the city, in partnership with the Seattle Housing Authority, found that subsidy-housing vouchers given to families normally aren’t used to find housing in “better” neighborhoods. After implementing services, such as receiving an assigned person to walk families through the apartment application process, the percentage of people using the vouchers to move to "better" neighborhoods rose by 40 percent. </p>
+  <p>For now, there are still a high number of hate crimes reported in Seattle. Other large cities have also seen a rise in hate crimes and violence, but Seattle is unique because it is the only place in the country in the top five for every hate crime category in 2018. </p>
+  <h2>Seattle is in the top 5 for every hate crime category</h2>
+  {{> story/bar-charts }}
+  <p>Galloway is from Canada, but spent a “considerable amount of time” in Oregon and Washington, including Seattle, during his time as a white supremacist. Volksfront was founded in Oregon and quickly spread to Washington. He said he witnessed more violence in those areas than when he was part of Canada's neo-nazi movement.</p>
+  <p>His group used various hate symbols, and so do many others. The Anti-Defamation League, a jewish civil rights group, keeps a longstanding list of hate symbols. Here are some of them. (Warning: some of these symbols might be offensive to certain groups of people).</p></div></div>
+  {{> story/hate-symbols }} <div class="story-body">
+   <p>If Galloway could talk to his 19-year-old self, he would warn against becoming part of a movement that demonizes others.  </p>
+  <p>“Our interactions mean so much and we have to be careful how we treat each other, because that's what’s causing everything that's been going on,” he said. “Black and white thoughts don’t help anything.” </p>
+<div class='methodology'>
+  <h4>Methodology and Notes</h4>
+  <p>The national hate map shows FBI 2018 hate crime data and does not include Wyoming or Alabama, because no police precinct in those states reported hate crimes. It is important to note that this map only includes reported hate crimes. Many hate attacks or vandalism do not get reported or are dismissed by police precincts. Therefore, this map is an underrepresentation of the total amount of hate crimes that occured in this country in 2018.</p>
+  <p>The information for the hate group linear regression chart came from the Southern Poverty Law Center. It is important to note that while the number of hate groups is shown as increasing, that is by the SPLC's definition of what a hate group is. This definition has become more broad in recent years and various categories such as hate music have been added that some find questionable. The linear regression prediction was calculated by taking the number of hate groups recorded by the SPLC from 2000 to 2018 and running a line of best fit through the data until the year 2030. </p>
+  <p>The old Seattle map is taken from Wikipedia (creative commons) and was drawn in 1938 for a sanitary survey. The choropleth map of the percentage of white individuals per census tract was taken from 2010 census data for Kings County, WA. The calculation for this is: dividing the number of people who identify as white per tract by the total number of individuals in each tract and multiplying that by 100.</p>
+  <p>The six hate crimes per category charts are taken from FBI 2018 hate crime data and show the total counts for each city in the top five by type of hate crime.</p>
+  <p>Click <a href="https://github.com/lindseyf96/final-project">here</a> to see the code and analysis for this project.</p>
+</div>
+</div>
