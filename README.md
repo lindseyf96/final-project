@@ -1,30 +1,27 @@
-<b>What my project is:</b>
+<b>My Project</b>
 
-I'm looking at hate groups and hate crimes. I am going to compare these two stats for a bunch of cities in the United States, then focus on New York state as a whole.
-
-
-<b>Who is in the group:</b>
-
-Just me :) 
+I looked at hate groups and hate crimes in this country, first on a broad scale, then looking at various cities, and finally focusing on Seattle. I also included information such as hate symbols and how to leave a hate group.
 
 
-<b>Where your data is coming from:</b>
+<b>My Data Sources</b>
 
-Southern Poverty Law Center hate groups data, FBI hate crimes data
-
-
-<b>Your current status in terms of data acquisition/analysis/visualization:</b>
-
-I have all the data I need, I just need to get shape files and make the data usable in QGIS (add FIPS data to everything, maybe zip codes). For analysis, I have done a significance test comparing hate groups from 2014 to 2018. I will have a map with interactive scrollytelling using Mapbox. I also want to interview a specific person who used to be in a neo-nazi hate group and use that info to create an interactive game. I will also show hate group symbols (requested by Jeremy). I will also have a linear regression chart. Other charts are tbd. 
+Southern Poverty Law Center hate groups data from 2000 to 2018, FBI 2018 hate crimes data, 2010 Census data, and Wikipedia Creative Commons
 
 
-<b>Sketch of what the final project might look like, noting any interactivity:</b>
+<b>Methodology and Notes</b>
 
-<ul>
-<li>Header image + title text</li>
-<li>then explainer text + linear regression chart</li>
-<li>then interactive map showing cities, then zooming into nyc</li>
-<li>then more explainer text + hate group symbols</li>
-<li>then interactive game (or link to a page with the interactive game)</li>
-<li>then rest of explainer text and other charts</li>
-</ul>
+The national hate map shows FBI 2018 hate crime data and does not include Wyoming or Alabama, because no police precinct in those states reported hate crimes. It is important to note that this map only includes reported hate crimes. Many hate attacks or vandalism do not get reported or are dismissed by police precincts. Therefore, this map is an underrepresentation of the total amount of hate crimes that occured in this country in 2018.
+
+The information for the hate group linear regression chart came from the Southern Poverty Law Center. It is important to note that while the number of hate groups is shown as increasing, that is by the SPLC's definition of what a hate group is. This definition has become more broad in recent years and various categories such as hate music have been added that some find questionable. The linear regression prediction was calculated by taking the number of hate groups recorded by the SPLC from 2000 to 2018 and running a line of best fit through the data until the year 2030.
+
+The old Seattle map is taken from Wikipedia (creative commons) and was drawn in 1938 for a sanitary survey. The choropleth map of the percentage of white individuals per census tract was taken from 2010 census data for Kings County, WA. The calculation for this is: dividing the number of people who identify as white per tract by the total number of individuals in each tract and multiplying that by 100.
+
+The six hate crimes per category charts are taken from FBI 2018 hate crime data and show the total counts for each city in the top five by type of hate crime.
+
+
+To see the analysis for this project, go to final-project -> src -> analysis
+
+Other analysis, including what was shown in the Mapbox interactive, was done in QGIS and later edited in Mapbox Studio. 
+
+Click <a href="https://lindseyf96.github.io/final-project/">here</a> to see the project page.
+

@@ -1,0 +1,405 @@
+.link {
+    fill: none;
+    stroke: #000;
+    stroke-opacity: .2;
+}
+
+.link:hover {
+    stroke-opacity: .5;
+}
+
+body {
+    margin:auto;
+    /* padding:50px 10px; */
+    font-family: 'Open Sans', sans-serif;
+    /* background: linear-gradient(to bottom, #000000 60%, #696969 100%); */
+}
+
+img {
+    max-width: 100%;
+}
+
+
+.serif {
+    font-family: 'Lora', serif;
+}
+
+.sans-serif {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* choose a light or dark theme to add to the body tag. */
+.dark-theme {
+    background-color: #151515;
+    color: #fbfbfb;
+}
+.light-theme {
+    background-color: white;
+    color: black;
+}
+
+.story-body, .header, .chart-section, .footer {
+    margin:auto;
+    padding: 20px;
+    max-width: 700px;
+}
+
+.footer {
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+.chart-section.wide{
+    width:100%;
+    max-width:1200px;
+}
+
+.chart-section.wide p.chart-title {
+    width:100%;
+    max-width:700px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.chart-section.wide p.chart-subhead {
+    width:100%;
+    max-width:700px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+
+/* text styles */
+
+p.kicker {
+    font-size:1rem;
+    text-transform:uppercase;
+}
+
+.text-center {
+    text-align:center;
+}
+
+h1.headline {
+    font-size: 4rem;
+    line-height: 1.1;
+    margin-bottom: 0.25rem;
+    margin-top: 25rem;
+    font-weight: 800;
+}
+
+h2.subhead {
+    font-size: 1.4rem;
+    line-height: 2rem;
+    margin-bottom:0;
+    margin-top: 15px;
+    font-weight: 400;
+}
+
+p.body-text {
+    font-size: 1.1rem;
+    line-height: 1.4;
+    margin-top:0;
+    margin-bottom:15px;
+}
+
+h3.section-head {
+    font-size:2rem;
+    margin:40px 0 10px 0;
+    font-weight:700;
+    line-height:1.3;
+}
+
+.byline {
+    font-size: 1.1rem;
+    line-height: 0.75;
+    margin-top: 1.5rem;
+    font-weight: 500;
+}
+
+.date {
+    font-size: 0.85rem;
+    line-height: 1;
+    margin-top: 10px;
+    font-weight:400;
+    text-transform:uppercase;
+    letter-spacing:0.5px;
+}
+
+
+p.note {
+    font-size:0.85rem;
+}
+
+/* chart styles */
+
+.chart-section {
+    width:100%;
+    max-width:1200px;
+    padding:20px 0px;
+}
+
+.story-body .chart-section {
+    padding-top:0px;
+}
+
+
+.chart-row {
+    display:flex;
+    justify-content: space-between;
+    margin-top:20px;
+}
+
+p.chart-title {
+    font-size:1.3rem;
+    font-weight:700;
+    max-width:700px;
+    margin:0px auto 5px auto;
+}
+p.chart-subhead {
+    margin:0 auto;
+    max-width:700px;
+    font-size:1rem;
+    margin-bottom:15px;
+}
+
+p.chart-label {
+    margin:0 0 5px 0;
+    font-size:0.85rem;
+    text-transform:uppercase;
+    font-weight:600;
+}
+
+.chart-row .chart {
+    width:100%;
+    padding-right:15px;
+    min-width:calc(25% - 15px);
+
+}
+
+
+
+p.chart-source {
+    font-size:0.85rem;
+    margin:0;
+}
+
+
+
+
+
+/* photos */
+
+.photo-section {
+    padding:30px 0px;
+    width:100%;
+    margin:auto;
+    display:flex;
+    max-width:1200px;
+}
+
+.photo {
+    padding:0;
+}
+.photo img {
+    width:100%;	
+}
+
+p.caption {
+    font-size:0.9rem;
+    margin:0;
+}
+
+
+
+/* mobile */
+
+@media (max-width:700px) {
+
+    .chart-row {
+        display:block;
+    }
+
+    .chart-row .chart {
+        padding:0;
+    }
+
+    .photo-section {
+        display:block;
+    }
+
+    .photo {
+        padding:0;
+    }
+
+}
+
+/* .header-img {
+    width: 100%;
+    height: 100vh;
+    background-image: url(/images/hate-protest.gif);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+  
+} */
+
+.image{
+    width: 100%;
+    align-content: center;
+}
+
+#thing {
+    /* background-color: black; */
+    color: white;
+    background-image: url('/hate-protest.7037e312.gif');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+    /* padding: 10px; */
+}
+
+.header1 {
+    /* padding-top:20px;
+    padding-bottom:20px;
+    padding-right: 40px;
+    text-align: right;
+    position: relative;
+    top: 50px; */
+    /* padding-right: 40px; */
+    /* position: absolute;
+    top: 40%;
+    left: 5%;
+    right: 5%; */
+    /* transform: translate( -50%, -50% ); */
+    font-size: 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3%;
+}
+
+
+.disclaimer{
+    font-style: italic;
+    font-size: 17px;
+    padding: 30px;
+    color: gray;    
+}
+
+div.sticky {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    bottom:30;
+  }
+
+  @media (max-width:950px) {
+
+    .sticky {
+        display: none;
+    }
+
+}
+
+.d3-tip {
+    line-height: 1;
+    font-weight: bold;
+    padding: 12px;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    border-radius: 2px;
+    pointer-events: none;
+  }
+  
+  /* Creates a small triangle extender for the tooltip */
+  .d3-tip:after {
+    box-sizing: border-box;
+    display: inline;
+    font-size: 10px;
+    width: 100%;
+    line-height: 1;
+    color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    pointer-events: none;
+  }
+  
+  /* Northward tooltips */
+  .d3-tip.n:after {
+    content: "\25BC";
+    margin: -1px 0 0 0;
+    top: 100%;
+    left: 0;
+    text-align: center;
+  }
+  
+  /* Eastward tooltips */
+  .d3-tip.e:after {
+    content: "\25C0";
+    margin: -4px 0 0 0;
+    top: 50%;
+    left: -8px;
+  }
+  
+  /* Southward tooltips */
+  .d3-tip.s:after {
+    content: "\25B2";
+    margin: 0 0 1px 0;
+    top: -8px;
+    left: 0;
+    text-align: center;
+  }
+  
+  /* Westward tooltips */
+  .d3-tip.w:after {
+    content: "\25B6";
+    margin: -4px 0 0 -1px;
+    top: 50%;
+    left: 100%;
+  }
+
+  .bar-charts {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+  }
+
+  .methodology {
+      color: gray;
+      padding: 50px;
+  }
+
+  #rect_animation {
+      opacity: 0;
+  }
+
+  .black-color {
+      background-color: #080401;
+  }
+
+  .black-color p {
+    color: white;
+}
+
+.black-color h2 {
+    color: white;
+}
+
+.extra-wide {
+    max-width: 150%;
+    width: 150%
+}
+
+
+
+/*# sourceMappingURL=/style.251b6741.css.map */
