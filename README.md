@@ -23,5 +23,5 @@ To see the analysis for this project, go to final-project -> src -> analysis
 
 Other analysis, including what was shown in the Mapbox interactive, was done in QGIS and later edited in Mapbox Studio. 
 
-Click <a href="https://lindseyf96.github.io/final-project/">here</a> to see the project page.
+Click <a href="https://lindseyf96.github.io/final-project/docs/index.html">here</a> to see the project page.
 
