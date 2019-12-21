@@ -51,32 +51,32 @@ var config = {
                 // }
             ]
         },
-        {
-            id: 'other-identifier0',
-            title: 'Chicago',
-            description: '<p>While not all of these are shown on the map because they are overlapping, Chicago and the surrounding area have 17 hate groups.</p> <p>There are seven Black Nationalist groups, three white supremacy groups, along with Christian identity groups. Specific hate groups include Nation of Islam (black nationalist), Euro Folk Radio (Christian identity), Identity Evropa (white supremacy), Heterosexuals Organized For A Moral Environment (anti-LGBT), among others.</p> ',
-            location: {
-                center: [-87.92842, 41.85550],
-                zoom: 9.87,
-                pitch: 45.00,
-                bearing: 0.00
-            },
-            onChapterEnter: [ {
-                layer: 'splc-hate-groups-2018-geocodio',
-                opacity: 1
-            },],
-            onChapterExit: [ {
-                layer: 'splc-hate-groups-2018-geocodio',
-                opacity: 1
-            },]
-        },
+        // {
+        //     id: 'other-identifier0',
+        //     title: 'Chicago',
+        //     description: '<p>While not all of these are shown on the map because they are overlapping, Chicago and the surrounding area have 17 hate groups.</p> <p>There are seven Black Nationalist groups, three white supremacy groups, along with Christian identity groups. Specific hate groups include Nation of Islam (black nationalist), Euro Folk Radio (Christian identity), Identity Evropa (white supremacy), Heterosexuals Organized For A Moral Environment (anti-LGBT), among others.</p> ',
+        //     location: {
+        //         center: [-87.92842, 41.85550],
+        //         zoom: 9.87,
+        //         pitch: 45.00,
+        //         bearing: 0.00
+        //     },
+        //     onChapterEnter: [ {
+        //         layer: 'splc-hate-groups-2018-geocodio',
+        //         opacity: 1
+        //     },],
+        //     onChapterExit: [ {
+        //         layer: 'splc-hate-groups-2018-geocodio',
+        //         opacity: 1
+        //     },]
+        // },
         {
             id: 'other-identifier',
             title: 'New York City',
-            description: '<p>The city and surrounding area have many different hate groups, including United Riot Records (hate music), The Right Stuff (white nationalist), Nation of Islam (black nationalist), Center for Family and Human Rights (anti-LGBT), American Freedom Defense Initiative (anti-Muslim), among others.</p> <p>According to the <a href="https://criminaljustice.cityofnewyork.us/programs/ophc/">Office for the Prevention of Hate Crimes</a>, which launched this summer to combat these types of crimes through preventative measures, “New York City’s crime decline continues to outpace the rest of the U.S., yet...hate crime incidents in the city increased by 64 percent between 2018 and 2019.”</p>',
+            description: '<p>New York City has 18 different hate groups, the second highest number for a city in the United States. These include United Riot Records (hate music), The Right Stuff (white nationalist), Nation of Islam (black nationalist), Center for Family and Human Rights (anti-LGBT), American Freedom Defense Initiative (anti-Muslim), among others. Note: the groups were evenly spread across the city to accurately show the number, but these are not the actual headquarter locations.</p> <p>According to the <a href="https://criminaljustice.cityofnewyork.us/programs/ophc/">Office for the Prevention of Hate Crimes</a>, which launched this summer to combat these types of crimes through preventative measures, “New York City’s crime decline continues to outpace the rest of the U.S., yet...hate crime incidents in the city increased by 64 percent between 2018 and 2019.”</p>',
             location: {
-                center: [-74.01490, 40.76978],
-                zoom: 8.74,
+                center: [-74.01132, 40.68842],
+                zoom: 10.32,
                 pitch: 45.00,
                 bearing: 0.00
             },
@@ -92,10 +92,10 @@ var config = {
         {
             id: 'other-identifier1',
             title: 'D.C.',
-            description: '<p>D.C. and the surrounding area have over 30 hate groups (all the ones in D.C. have the same location, so the points are overlapping each other). Some of these hate groups include the Family Research Countil (anti-LGBT), Israel United In Christ (black nationalist), Return of Kings (male supremacy), and Patriot Front (white nationalist). Anti-Muslim and black nationalist groups are the majority of hate organizations in the District.</p> <p>D.C. has the highest number of hate crimes per capita of any place in the United States. According to an <a href= "https://www.washingtonpost.com/graphics/2019/local/dc-hate-prosecutions-drop/">article</a> in the Washington Post, out of the 204 reported hate crimes, there were 59 arrests but only three made it to court.</p>',
+            description: '<p>D.C. has 27 hate groups, the most out of any city in the country. Some of these include the Family Research Countil (anti-LGBT), Israel United In Christ (black nationalist), Return of Kings (male supremacy), and Patriot Front (white nationalist). Anti-Muslim and black nationalist groups are the majority of hate organizations in the District. Note: the groups were evenly spread across the city to accurately show the number, but these are not the actual headquarter locations.</p> <p>D.C. also has the highest number of hate crimes per capita of any place in the United States. According to an <a href= "https://www.washingtonpost.com/graphics/2019/local/dc-hate-prosecutions-drop/">article</a> in the Washington Post, out of the 204 reported hate crimes in 2018, there were 59 arrests but only three made it to court.</p>',
             location: {
-                center: [-77.25679, 38.90525],
-                zoom: 9.44,
+                center: [-77.10083, 38.88344],
+                zoom: 10.90,
                 pitch: 45.00,
                 bearing: 0.00
             },
@@ -108,29 +108,29 @@ var config = {
                 opacity: 1
             },]
         },
-        {
-            id: 'other-identifier2',
-            title: 'Atlanta',
-            description: '<p>Atlanta and the surrounding area have over 15 hate groups (all the ones in Atlanta are not shown on the map because they did not list specific headquarter locations). Some of these hate groups include Sicarii 1715 (black nationalist), Identity Dixie (neo-confederate), Atomwaffen Division (neo-nazi), and Affirmative Right (white nationalist).</p>',
-            location: {
-                center: [-84.56517, 33.77316],
-                zoom: 9.65,
-                pitch: 45.00,
-                bearing: 0.00
-            },
-            onChapterEnter: [ {
-                layer: 'splc-hate-groups-2018-geocodio',
-                opacity: 1
-            },],
-            onChapterExit: [ {
-                layer: 'splc-hate-groups-2018-geocodio',
-                opacity: 1
-            },]
-        },
+        // {
+        //     id: 'other-identifier2',
+        //     title: 'Atlanta',
+        //     description: '<p>Atlanta and the surrounding area have over 15 hate groups (all the ones in Atlanta are not shown on the map because they did not list specific headquarter locations). Some of these hate groups include Sicarii 1715 (black nationalist), Identity Dixie (neo-confederate), Atomwaffen Division (neo-nazi), and Affirmative Right (white nationalist).</p>',
+        //     location: {
+        //         center: [-84.56517, 33.77316],
+        //         zoom: 9.65,
+        //         pitch: 45.00,
+        //         bearing: 0.00
+        //     },
+        //     onChapterEnter: [ {
+        //         layer: 'splc-hate-groups-2018-geocodio',
+        //         opacity: 1
+        //     },],
+        //     onChapterExit: [ {
+        //         layer: 'splc-hate-groups-2018-geocodio',
+        //         opacity: 1
+        //     },]
+        // },
         {
             id: 'other-identifier3',
             title: 'Los Angeles',
-            description: 'California has 83 hate groups, most of which are nationalist and general hate groups (male supremacy, Holocause denial, etc.). LA and the surrounding area are home to groups that have more of a nationalist, but also identity-based, agenda. Some include Act for America (anti-Muslim), American Freedom Party (white nationalist), Tradition in Action (radical traditional catholicism), and Great Milestone (black nationalist).',
+            description: 'California has 83 hate groups, most of which are nationalist and general hate groups (male supremacy, Holocause denial, etc.). LA is home to 15 groups, the third highest number in the country, but the surrounding area has many as well -- an anomaly for a city. All of these groups have more of a nationalist, but also identity-based, agenda. Some include Act for America (anti-Muslim), American Freedom Party (white nationalist), Tradition in Action (radical traditional catholicism), and Great Milestone (black nationalist).',
             location: {
                 center: [-118.29319, 34.04451],
                 zoom: 8.57,
@@ -153,7 +153,7 @@ var config = {
         {
             id: 'other-identifier4',
             title: 'Seattle',
-            description: '<p>Washington state has one of the highest hate crimes per capita, with 1 out of almost 15,000 people. While Seattle has very few hate groups, it has a long history of hate crimes.</p> <p>“There were 521 hate crimes, crimes with bias elements and noncriminal bias incidents reported to Seattle police in 2018, representing an increase of nearly 400% since 2012 and an increase of nearly 25% over 2017,” according to an <a href="https://www.seattletimes.com/seattle-news/crime/reported-hate-crimes-and-incidents-up-nearly-400-in-seattle-since-2012/ ">article</a> from The Seattle Times. How did this city become like this?</p>',
+            description: '<p>Washington state has one of the highest hate crimes per capita, with 1 out of almost 15,000 people. While Seattle has very few hate groups (which were evenly spread across the city to accurately show the number), it has a long history of hate crimes.</p> <p>“There were 521 hate crimes, crimes with bias elements and noncriminal bias incidents reported to Seattle police in 2018, representing an increase of nearly 400% since 2012 and an increase of nearly 25% over 2017,” according to an <a href="https://www.seattletimes.com/seattle-news/crime/reported-hate-crimes-and-incidents-up-nearly-400-in-seattle-since-2012/ ">article</a> from The Seattle Times. How did this city become like this?</p>',
             location: {
                 center: [-122.38044, 47.59949],
                 zoom: 10.56,
@@ -248,5 +248,4 @@ var config = {
         },
     ]
 };
-
 
